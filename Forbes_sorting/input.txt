@@ -1,0 +1,5 @@
+Scrooge McDuck;654;Duckburg;mining,treasure hunting
+Smaug;541;The Lonely Mountain;marauding
+Carlise Cullen;460;Forks;compound interest,investments
+Tony Stark;124;Malibu;defense,energy
+Charles Foster Kane;112;Xanadu;media,social

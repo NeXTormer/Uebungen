@@ -1,0 +1,6 @@
+
+horse;apple;grass;food
+!!;!
+HOrse;HORSE
+bird;seeds;birdfood
+cow;grass;cowfood

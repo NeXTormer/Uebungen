@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="65dcd6a1-2baa-4ee2-8ec6-4acd233cf9ed" name="Default" comment="" />
+    <list default="true" id="65dcd6a1-2baa-4ee2-8ec6-4acd233cf9ed" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,21 +17,11 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AnimalFoodCollections/src/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2180">
+            <state relative-caret-position="535">
               <caret line="109" column="34" lean-forward="false" selection-start-line="109" selection-start-column="34" selection-end-line="109" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="animals.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/animals.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -80,6 +72,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -87,32 +83,10 @@
               <item name="Uebungen" type="b2602c69:ProjectViewProjectNode" />
               <item name="Uebungen" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Uebungen" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Uebungen" type="462c0819:PsiDirectoryNode" />
-              <item name="AnimalFoodCollections" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Uebungen" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Uebungen" type="462c0819:PsiDirectoryNode" />
-              <item name="AnimalFoodCollections" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Uebungen" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Uebungen" type="462c0819:PsiDirectoryNode" />
-              <item name="AnimalFoodCollections" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="company" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -210,14 +184,16 @@
       <workItem from="1507548045254" duration="4921000" />
       <workItem from="1507553066322" duration="45000" />
       <workItem from="1508133572267" duration="14000" />
+      <workItem from="1509435184130" duration="35000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4980000" />
+    <option name="totallyTimeSpent" value="5015000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -295,6 +271,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/AnimalFoodCollections/src/company/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/animals.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/List.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -332,7 +326,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AnimalFoodCollections/src/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2180">
+        <state relative-caret-position="535">
           <caret line="109" column="34" lean-forward="false" selection-start-line="109" selection-start-column="34" selection-end-line="109" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />

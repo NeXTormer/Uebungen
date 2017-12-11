@@ -21,51 +21,43 @@ public class JDBCMain
 {
 	public static void main(String[] args) 
 	{
-		Driver mySqlDriver; // JDBC-Treiber
+		Driver mySqlDriver;
 		Connection conn;
 		Statement upd;
 
-		System.out.println("Starting...");
-
-		try {
-			// JDBC-Treiber laden
+		try 
+		{
 			Class.forName("com.mysql.jdbc.Driver");
-		} catch (ClassNotFoundException e1) {
-			System.out.println(e1.toString());
+		} 
+		catch (ClassNotFoundException e1) 
+		{
+			System.out.println(e1);
 			System.exit(1);
 		}
 
-		try {
-			// Verbindung herstellen
-			conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/test", "root", "");
-			// Neues Statement erzeugen, wird mehrfach verwendet
+		try 
+		{
+			conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/htl_waytoschool", "root", "");
 			upd = conn.createStatement();
 
-			// Tabelle anlegen
-			int res = upd.executeUpdate("create table test01(col1 int primary key,col2 char(20))");
-			System.out.println("RetCode von <create table>: " + res);
-
-			// Daten in die Tabelle schreiben
-			res = upd.executeUpdate("insert into test01 values(1,'hallo')");
-			System.out.println("RetCode von <insert>: " + res);
-			res = upd.executeUpdate("insert into test01 values(2,'12345678901234567890')");
-			System.out.println("RetCode von <insert>: " + res);
-
-			// Daten aus der Tabelle lesen
-			ResultSet rset = upd.executeQuery("select * from test01");
-			while (rset.next() == true) {
-				System.out.println("col1: " + rset.getInt("col1") + " col2: " + rset.getString("col2"));
+			int res = upd.executeUpdate("use htl_waytoschool");
+		
+			ResultSet rset = upd.executeQuery("select v.name, productionyear, distance as 'Distance [km]', s.name as Owner from vehicle v, student s where productionyear < 2001  and s.id = v.student_id order by productionyear desc;\r\n");
+			while (rset.next()) 
+			{
+				System.out.println("Name: " + rset.getString(1) + ", Productionyear: " + rset.getInt(2) + ", Distance [km]: " + rset.getInt(3) + ", Owner: " + rset.getString(4));
 			}
 
-			// Tabelle wieder l�schen
-			res = upd.executeUpdate("drop table test01");
-			System.out.println("RetCode von <drop table>: " + res);
-		} catch (SQLException e) {
-			System.out.print("getConnection(): ");
-			System.out.println(e.toString());
+			conn.close();
+
+		} 
+		catch (SQLException e) 
+		{
+			System.out.print("MYSQL Connection error: ");
+			System.out.println(e);
 			System.exit(1);
 		}
+		
 
-		System.out.println("Bye!");
 	}
 }

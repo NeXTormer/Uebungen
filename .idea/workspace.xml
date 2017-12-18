@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="65dcd6a1-2baa-4ee2-8ec6-4acd233cf9ed" name="Default" comment="" />
+    <list default="true" id="65dcd6a1-2baa-4ee2-8ec6-4acd233cf9ed" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.recommenders/index/http___download_eclipse_org_recommenders_models_oxygen_/_0.fdt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.recommenders/index/http___download_eclipse_org_recommenders_models_oxygen_/_0.fdx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.recommenders/index/http___download_eclipse_org_recommenders_models_oxygen_/_0.fnm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.recommenders/index/http___download_eclipse_org_recommenders_models_oxygen_/_0.frq" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.recommenders/index/http___download_eclipse_org_recommenders_models_oxygen_/_0.nrm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.recommenders/index/http___download_eclipse_org_recommenders_models_oxygen_/_0.prx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.recommenders/index/http___download_eclipse_org_recommenders_models_oxygen_/_0.tii" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.recommenders/index/http___download_eclipse_org_recommenders_models_oxygen_/_0.tis" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.recommenders/index/http___download_eclipse_org_recommenders_models_oxygen_/segments_1" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.recommenders/index/http___download_eclipse_org_recommenders_models_oxygen_/segments.gen" afterPath="$PROJECT_DIR$/.recommenders/index/http___download_eclipse_org_recommenders_models_oxygen_/segments.gen" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -273,12 +284,12 @@
       <workItem from="1509435767569" duration="873000" />
       <workItem from="1512146826191" duration="5000" />
       <workItem from="1512995630097" duration="120000" />
-      <workItem from="1513599149664" duration="18000" />
+      <workItem from="1513599149664" duration="619000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6552000" />
+    <option name="totallyTimeSpent" value="7153000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />

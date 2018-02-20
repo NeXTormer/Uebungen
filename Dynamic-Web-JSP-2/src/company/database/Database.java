@@ -192,10 +192,27 @@ public class Database
                 data.add(temp);
             }
 
-            String table = "<table>";
+            String table = "<table class=\"other\">";
             table += "<tr>";
             for(String s : titles)
             {
+                //formatting
+                switch (s) {
+                    case "category":
+                        s = "Kategorie";
+                        break;
+                    case "name":
+                        s = "Name";
+                        break;
+                    case "id":
+                        s = "Nr.";
+                        break;
+                    case "time":
+                        s = "Zeit";
+                        break;
+                }
+
+
                 table += "<th>" + s + "</th>";
             }
             table += "</tr>";
@@ -205,6 +222,22 @@ public class Database
                 table += "<tr>";
                 for(String s : a)
                 {
+                    //formatting
+                    switch (s) {
+                        case "mpro":
+                            s = "Profi, maennlich";
+                            break;
+                        case "mamateur":
+                            s = "Amateur, maennlich";
+                            break;
+                        case "fpro":
+                            s = "Profi, weiblich";
+                            break;
+                        case "famateur":
+                            s = "Amateur, weiblich";
+                            break;
+                    }
+
                     table += "<td>" + s + "</td>";
                 }
                 table += "</tr>";

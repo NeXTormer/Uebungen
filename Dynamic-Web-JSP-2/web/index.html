@@ -3,16 +3,7 @@
 	<head>
 		<meta charset="ISO-8859-1">
 		<title>Race Times</title>
-		<style>
-			body {
-				background-color: lightgray;
-				font-family: sans-serif;
-			}
-			fieldset {
-				border-color: darkgray;
-				
-			}
-		</style>
+		<link rel=stylesheet type=text/css href="style.css">
 	</head>
 	<body>
 		<h1>HTL - Mountainbike Race</h1>
@@ -35,17 +26,17 @@
 			
 			<fieldset>
 				<legend>Time</legend>
-				<table>
+				<table class="clear">
 					<tr>
-						<th align="left">Min.</th>
-						<th align="left">Sec.</th>
-						<th align="left">HSec.</th>
+						<th align="left">Minuten</th>
+						<th align="left">Sekunden</th>
+						<th align="left">Hundertstel</th>
 					</tr>
 					
 					<tr>
-						<td><input type="text" name="minutes" value="1"></td>
-						<td><input type="text" name="seconds" value="10"></td>
-						<td><input type="text" name="hseconds" value="20"></td>
+						<td><input type="number" size="4" name="minutes" value="1"></td>
+						<td><input type="number" size="4" name="seconds" value="10"></td>
+						<td><input type="number" size="4" name="hseconds" value="20"></td>
 					</tr>
 				</table>
 			</fieldset>
@@ -56,7 +47,7 @@
 			<input type="submit" value="Submit">
 			<br>
 			<br>
-			<a href="result.jsp">Show Results</a>
+			<a href="results.jsp">Show Results</a>
 		</form>
 		
 	</body>

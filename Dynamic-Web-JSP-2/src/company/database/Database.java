@@ -197,22 +197,26 @@ public class Database
             for(String s : titles)
             {
                 //formatting
-                switch (s) {
-                    case "category":
-                        s = "Kategorie";
-                        break;
-                    case "name":
-                        s = "Name";
-                        break;
-                    case "id":
-                        s = "Nr.";
-                        break;
-                    case "time":
-                        s = "Zeit";
-                        break;
+                if(s.equals("category"))
+                {
+                    s = "Kategorie";
+
                 }
+                else if(s.equals("name"))
+                {
+                    s = "Name";
 
+                }
+                else if(s.equals("id"))
+                {
+                    s = "Nr.";
 
+                }
+                else if(s.equals("time"))
+                {
+                    s = "Zeit";
+
+                }
                 table += "<th>" + s + "</th>";
             }
             table += "</tr>";
@@ -223,19 +227,25 @@ public class Database
                 for(String s : a)
                 {
                     //formatting
-                    switch (s) {
-                        case "mpro":
-                            s = "Profi, maennlich";
-                            break;
-                        case "mamateur":
-                            s = "Amateur, maennlich";
-                            break;
-                        case "fpro":
-                            s = "Profi, weiblich";
-                            break;
-                        case "famateur":
-                            s = "Amateur, weiblich";
-                            break;
+                    if(s.equals("mpro"))
+                    {
+                        s = "M - Pro";
+
+                    }
+                    else if(s.equals("mamateur"))
+                    {
+                        s = "M - Amateur";
+
+                    }
+                    else if(s.equals("fpro"))
+                    {
+                        s = "F - Pro";
+
+                    }
+                    else if(s.equals("famateur"))
+                    {
+                        s = "F - Amateur";
+
                     }
 
                     table += "<td>" + s + "</td>";

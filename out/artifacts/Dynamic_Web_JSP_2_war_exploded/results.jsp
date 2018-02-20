@@ -13,10 +13,12 @@
 <%
     Database db = new Database("faoiltiarna.ddns.net", "htl_mtbrace", "user", "PeterRendl69!");
 
-    out.println(db.GenerateTable("SELECT id as ID, name as Name, category as Kategorie, time as Zeit FROM entries;"));
+    out.println(db.GenerateTable("SELECT id as ID, name as Name, category as Kategorie, time as Zeit FROM entries ORDER BY time ASC;"));
 
     db.CloseConnection();
 
 %>
+
+<a href="index.html">Return to Home</a>
 </body>
 </html>

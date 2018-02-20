@@ -5,6 +5,7 @@
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+		<meta http-equiv="refresh" content="0; results.jsp" />
 		<title>Processing...</title>
 	</head>
 	<body>
@@ -26,25 +27,11 @@
 
 
 			db.Update("INSERT INTO entries (name, category, time) VALUES (?, ?, ?);", name, category, time + "");
-
-			switch (category) {
-			case "mpro":
-				category = "Male Pro";
-				break;
-			case "mamateur":
-				category = "Male Amateur";
-				break;
-			case "fpro":
-				category = "Female Pro";
-				break;
-			case "famateur":
-				category = "Female Amateur";
-				break;
-			}
 			
 			String output = "Name: " + name + ", Category: " + category + ", Time: " + minutes + ":" + seconds + ":" + hseconds;
 			out.println(output);
 			System.out.println(output);
+			db.CloseConnection();
 		%>
 	</body>
 </html>

@@ -12,7 +12,7 @@ table.other
     margin: auto;
 }
 
-table.other tr, td
+table.other tr, table.other td
 {
     text-align: center;
     border-bottom: 2px solid gray;

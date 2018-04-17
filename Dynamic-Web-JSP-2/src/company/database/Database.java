@@ -101,7 +101,7 @@ public class Database
      * Executes an update query (e.g. INSERT, UPDATE) on the server and returns the generated primary key.
      * @param query Query to execute.
      * @param items Values of the wildcards used in the query
-     *              (e.g. (INSERT INTO playlist (title, interpret, url) VALUES (?, ?, ?)) contains 3 wildcards instead of the values. The values passed
+     *              (e.g. (INSERT INTO playlist (title, artist, url) VALUES (?, ?, ?)) contains 3 wildcards instead of the values. The values passed
      *              into this function are replaced with the wildcards in the query).
      * @return Generated Primary Key.
      */

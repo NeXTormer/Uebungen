@@ -19,7 +19,7 @@
 <br>
 <br>
 <%
-    Database db = new Database("faoiltiarna.ddns.net", "iot_the_operator", "user", "PeterRendl69!");
+    Database db = new Database("10.0.0.254", "iot_the_operator", "user", "PeterRendl69!");
 
     ResultSet rs = db.Query("SELECT * FROM weather1 WHERE deviceid = 6 order by id desc limit 1;");
 

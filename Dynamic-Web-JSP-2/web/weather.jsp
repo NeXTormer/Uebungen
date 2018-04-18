@@ -27,13 +27,21 @@
     double hum = 0;
     String time = "[]";
 
-    while(rs.next())
+    try
     {
-        temp = rs.getInt(2);
-        hum = rs.getDouble(3);
 
-        time = rs.getString(5);
+        while(rs.next())
+        {
+            temp = rs.getInt(2);
+            hum = rs.getDouble(3);
 
+            time = rs.getString(5);
+        }
+    }
+    catch (NullPointerException e)
+    {
+        out.println("NULLPETER");
+        out.println(e.toString());
     }
     out.println("<b>Time: </b>" + time);
     out.println("<br>");

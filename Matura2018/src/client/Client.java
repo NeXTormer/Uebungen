@@ -146,6 +146,7 @@ public class Client extends JFrame {
 				
 				String time = LocalDateTime.now().format(DateTimeFormatter.ISO_LOCAL_TIME);
                 printWriter.println("ADD " + tf_room.getText() + " " + tf_lux.getText() + " LUX " + time);
+                printWriter.println("ADD " + tf_room.getText() + " " + tf_temp.getText() + " DEGREES " + time);
                 printWriter.flush();
                 
 				

@@ -1,6 +1,6 @@
-package company.database;
+package server;
 
-import javax.xml.transform.Result;
+import java.io.IOException;
 import java.sql.Connection;
 import java.sql.Driver;
 import java.sql.DriverManager;
@@ -9,16 +9,8 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
 
-/**
- * Created by Felix on 25/12/2017.
- */
 
-/**
- * No longer in use as it has been replaced with the GameData-API
- */
 public class Database
 {
     private Driver m_Driver;
@@ -170,97 +162,6 @@ public class Database
         }
     }
 
-    public String GenerateTable(String query)
-    {
-        ResultSet rs = Query(query);
-
-        int colCount = 0;
-        try {
-            colCount = rs.getMetaData().getColumnCount();
-
-            String[] titles = new String[colCount];
-            ArrayList<String[]> data = new ArrayList<String[]>();
-
-            while(rs.next())
-            {
-                String[] temp = new String[colCount];
-                for(int i = 0; i < colCount; i++)
-                {
-                    titles[i] = rs.getMetaData().getColumnName(i + 1);
-                    temp[i] = rs.getString(i + 1);
-                }
-                data.add(temp);
-            }
-
-            String table = "<table class=\"other\">";
-            table += "<tr>";
-            for(String s : titles)
-            {
-                //formatting
-                if(s.equals("category"))
-                {
-                    s = "Kategorie";
-
-                }
-                else if(s.equals("name"))
-                {
-                    s = "Name";
-
-                }
-                else if(s.equals("id"))
-                {
-                    s = "Nr.";
-
-                }
-                else if(s.equals("time"))
-                {
-                    s = "Zeit";
-
-                }
-                table += "<th>" + s + "</th>";
-            }
-            table += "</tr>";
-
-            for(String[] a : data)
-            {
-                table += "<tr>";
-                for(String s : a)
-                {
-                    //formatting
-                    if(s.equals("mpro"))
-                    {
-                        s = "M - Pro";
-
-                    }
-                    else if(s.equals("mamateur"))
-                    {
-                        s = "M - Amateur";
-
-                    }
-                    else if(s.equals("fpro"))
-                    {
-                        s = "F - Pro";
-
-                    }
-                    else if(s.equals("famateur"))
-                    {
-                        s = "F - Amateur";
-
-                    }
-
-                    table += "<td>" + s + "</td>";
-                }
-                table += "</tr>";
-            }
-            table += "</table>";
-            return table;
-
-
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
-        return "error";
-    }
 
     /**
      * Returns the first value of the ResultSet. Useful for queries like (SELECT id FROM players WHERE name = "test";)
@@ -295,5 +196,51 @@ public class Database
             System.err.println("Could not close MySQL connection.");
         }
     }
+    
+    
+    public void lastMeasurements()
+    {
 
+    	String query = "SELECT room, DATE_FORMAT(time, '%H:%i:%s') as time, value, unit FROM measurements ORDER BY time DESC LIMIT 4;";
+    	
+    	ResultSet rs = Query(query);
+
+        int colCount = 0;
+        try {
+            colCount = rs.getMetaData().getColumnCount();
+
+            String[] titles = new String[colCount];
+            ArrayList<String[]> data = new ArrayList<String[]>();
+
+            while(rs.next())
+            {
+                String[] temp = new String[colCount];
+                for(int i = 0; i < colCount; i++)
+                {
+                    titles[i] = rs.getMetaData().getColumnName(i + 1);
+                    temp[i] = rs.getString(i + 1);
+                }
+                data.add(temp);
+            }
+
+            String dataformat = "|%-12s|%-12s|%11s|%12s|\n";
+            
+            System.out.println("+--Last-4-Entries----------------------------------+");
+            System.out.println("|----Room----|----Time----|---Value---|----Unit----|");
+            for(int i = 0; i < data.size(); i++)
+            {
+            	String[] stoff = data.get(i);
+            	System.out.format(dataformat, stoff[0], stoff[1], stoff[2], stoff[3]);
+            }
+            System.out.println("+--------------------------------------------------+");
+            System.out.println("");
+
+        }
+        catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+    	
+    }
+    
 }

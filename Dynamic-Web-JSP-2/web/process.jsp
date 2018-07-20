@@ -11,7 +11,7 @@
 	<body>
 		<%
 
-			Database db = new Database("faoiltiarna.ddns.net", "htl_mtbrace", "user", "PeterRendl69!");
+			Database db = new Database("10.0.0.254", "htl_mtbrace", "user", "PeterRendl69!");
 
 			String name = request.getParameter("name");
 			String category = request.getParameter("category");

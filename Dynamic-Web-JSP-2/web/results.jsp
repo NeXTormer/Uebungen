@@ -12,7 +12,7 @@
 <body>
 
 <%
-    Database db = new Database("faoiltiarna.ddns.net", "htl_mtbrace", "user", "PeterRendl69!");
+    Database db = new Database("10.0.0.254", "htl_mtbrace", "user", "PeterRendl69!");
 
     out.println(db.GenerateTable("SELECT id as ID, name as Name, category as Kategorie, time as Zeit FROM entries ORDER BY time ASC;"));
 

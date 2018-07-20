@@ -1,0 +1,41 @@
+body
+{
+    background-color: lightgray;
+    font-family: "Arial";
+}
+
+
+table.other
+{
+    font-size: 24pt;
+    border-spacing: 0;
+    margin: auto;
+}
+
+table.other tr, table.other td
+{
+    text-align: center;
+    border-bottom: 2px solid gray;
+    padding-right: 14px;
+    padding-left: 14px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+
+}
+
+table.other tr:hover
+{
+    background-color: #c2c2c2;
+}
+
+table.other th
+{
+    background-color: #b5b5b5;
+    font-size: 24pt;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-bottom: 2px solid gray;
+}
+

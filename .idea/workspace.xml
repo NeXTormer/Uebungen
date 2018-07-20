@@ -61,11 +61,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="results.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="results.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Dynamic-Web-JSP-2/web/results.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="3" column="102" lean-forward="true" selection-start-line="3" selection-start-column="102" selection-end-line="3" selection-end-column="102" />
+            <state relative-caret-position="184">
+              <caret line="8" column="46" lean-forward="false" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Dynamic-Web-JSP-2/src/company/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="5" column="33" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -143,9 +153,9 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="499" />
-    <option name="y" value="-9" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="363" />
+    <option name="y" value="162" />
     <option name="width" value="812" />
     <option name="height" value="572" />
   </component>
@@ -164,6 +174,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -175,6 +186,19 @@
               <item name="Uebungen" type="b2602c69:ProjectViewProjectNode" />
               <item name="Uebungen" type="462c0819:PsiDirectoryNode" />
               <item name="Dynamic-Web-JSP-2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Uebungen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Uebungen" type="462c0819:PsiDirectoryNode" />
+              <item name="Dynamic-Web-JSP-2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Uebungen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Uebungen" type="462c0819:PsiDirectoryNode" />
+              <item name="Dynamic-Web-JSP-2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Uebungen" type="b2602c69:ProjectViewProjectNode" />
@@ -194,7 +218,6 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="AndroidView" />
     </panes>
@@ -488,18 +511,18 @@
       <workItem from="1519156354343" duration="2650000" />
       <workItem from="1519593562846" duration="13000" />
       <workItem from="1523275050031" duration="122000" />
+      <workItem from="1523380313452" duration="421000" />
+      <workItem from="1523987463776" duration="1250000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21134000" />
+    <option name="totallyTimeSpent" value="22805000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="true" />
+    <frame x="363" y="162" width="812" height="572" extended-state="0" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -509,8 +532,8 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1703125" sideWeight="0.63931626" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1703125" sideWeight="0.36068377" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5477387" sideWeight="0.6238739" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5477387" sideWeight="0.37612614" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -523,6 +546,7 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -770,13 +794,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Dynamic-Web-JSP-2/src/Main.java" />
-    <entry file="file://$PROJECT_DIR$/Dynamic-Web-JSP-2/src/company/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Dynamic-Web-JSP-2/web/results.xhtml" />
     <entry file="file://$PROJECT_DIR$/Dynamic-Web-JSP-2/web/index.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -822,8 +839,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Dynamic-Web-JSP-2/web/results.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="102" lean-forward="true" selection-start-line="3" selection-start-column="102" selection-end-line="3" selection-end-column="102" />
+        <state relative-caret-position="184">
+          <caret line="8" column="46" lean-forward="false" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dynamic-Web-JSP-2/src/company/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="5" column="33" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>

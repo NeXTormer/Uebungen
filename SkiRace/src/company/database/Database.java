@@ -1,16 +1,7 @@
 package company.database;
 
-import javax.xml.transform.Result;
-import java.sql.Connection;
-import java.sql.Driver;
-import java.sql.DriverManager;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Statement;
+import java.sql.*;
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
 
 /**
  * Created by Felix on 25/12/2017.
@@ -67,12 +58,12 @@ public class Database
         }
         catch(Exception e)
         {
-            System.err.println("[company.database.Database] Could not connect to MySQL server.");
+            System.err.println("[Database] Could not connect to MySQL server.");
             e.printStackTrace();
             connectionEstablished = false;
             return;
         }
-        System.out.println("[company.database.Database] Successfully connected to the database.");
+        System.out.println("[Database] Successfully connected to the database.");
         connectionEstablished = true;
     }
 
@@ -168,6 +159,88 @@ public class Database
             e.printStackTrace();
             return;
         }
+    }
+
+    public String PrintResultSetHTMLNice(ResultSet rs)
+    {
+        String html = "<table>";
+        if(rs == null)
+        {
+            System.out.println("[Database] ResultSet does not exist.");
+            return "Error";
+        }
+        try
+        {
+            int colCount = rs.getMetaData().getColumnCount();
+
+            html += "<tr>";
+            for(int i = 0; i < colCount; i++)
+            {
+                html += "<th>";
+                html += rs.getMetaData().getColumnName(i + 1);
+
+                html += "</th>";
+            }
+            html += "</tr>";
+
+
+            while(rs.next())
+            {
+                html +="<tr>";
+
+                for(int i = 0; i < colCount; i++)
+                {
+                    html += "<td>";
+                    html += rs.getString(i + 1) + (i == (colCount-1) ? "" : " </td><td> ");
+                    html += "</td>";
+                }
+                html +="</tr>";
+            }
+            html +="</table>";
+        }
+        catch (Exception e)
+        {
+            e.printStackTrace();
+            return "Error";
+        }
+
+
+
+
+        return html;
+    }
+
+    public String PrintResultSetHTML(ResultSet rs)
+    {
+        String html = "<table>";
+        if(rs == null)
+        {
+            System.out.println("[Database] ResultSet does not exist.");
+            return "Error";
+        }
+        try
+        {
+            int colCount = rs.getMetaData().getColumnCount();
+            while(rs.next())
+            {
+                html +="<tr>";
+                for(int i = 0; i < colCount; i++)
+                {
+                    html += "<td>";
+                    html += rs.getMetaData().getColumnName(i + 1) + ": " + rs.getString(i + 1) + (i == (colCount-1) ? "" : " </td><td> ");
+                    html += "</td>";
+                }
+                html +="</tr>";
+            }
+            html +="</table>";
+        }
+        catch (Exception e)
+        {
+            e.printStackTrace();
+            return "Error";
+        }
+
+        return html;
     }
 
     public String GenerateTable(String query)
@@ -269,7 +342,7 @@ public class Database
      */
     public String FirstValue(ResultSet rs)
     {
-        if(rs == null) return "[company.database.Database] ResultSet does not exist.";
+        if(rs == null) return "[Database] ResultSet does not exist.";
         String result = "";
         try
         {

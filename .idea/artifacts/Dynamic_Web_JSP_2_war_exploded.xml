@@ -11,6 +11,7 @@
           <element id="file-copy" path="$PROJECT_DIR$/Dynamic-Web-JSP-2/web/WEB-INF/lib/mysql-connector-java-5.1.14-bin.jar" />
         </element>
       </element>
+      <element id="module-output" name="SkiRace" />
     </root>
   </artifact>
 </component>

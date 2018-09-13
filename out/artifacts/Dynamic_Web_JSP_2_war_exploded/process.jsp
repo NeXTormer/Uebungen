@@ -1,4 +1,4 @@
-<%@ page import="company.database.Database" %>
+<%@ page import="Database" %>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 		 pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
@@ -11,7 +11,7 @@
 	<body>
 		<%
 
-			Database db = new Database("faoiltiarna.ddns.net", "htl_mtbrace", "user", "PeterRendl69!");
+			Database db = new Database("10.0.0.254", "htl_mtbrace", "user", "PeterRendl69!");
 
 			String name = request.getParameter("name");
 			String category = request.getParameter("category");

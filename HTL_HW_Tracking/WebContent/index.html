@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>HTL Homework Tracking</title>
+</head>
+<body>
+
+<h1>Track you homework with HTL Moessingerstrasse</h1>
+<br>
+Enter your pending tasks and select a subject.
+<br>
+<br>
+<form action="process.jsp">
+
+<br>
+<table>
+	<tr>
+		<th>Description</th>
+		<th>Subject</th>
+		<th>Due Date</th>
+	</tr>
+	<tr>
+		<td>
+			<input type="text" name="description">
+		</td>
+		<td>
+			<select name="subject">
+				<option value="hwe">HWE</option>
+				<option value="fsst">FSST</option>
+				<option value="dic">DIC</option>
+				<option value="deutsch">Deutsch</option>
+				<option value="englisch">Englisch</option>
+				<option value="mathematik">Mathematik</option>
+			</select>
+		</td>
+		<td>
+			<input type="date" name="duedate" class="btn" id="btn">
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<input type="submit">
+		</td>
+		<td>
+			<input type="reset">
+		</td>
+		<td>
+			<a href="tasks.jsp">Show list of Tasks
+		</td>
+	</tr>
+</table>
+
+</form>
+
+
+
+</body>
+</html>
+
+<style>
+
+body
+{
+	background-color: lightgray;
+}
+
+.btn
+{
+	width: 100%;
+}
+ 
+</style>

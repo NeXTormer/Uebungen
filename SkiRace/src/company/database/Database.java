@@ -24,6 +24,12 @@ public class Database
 
     public boolean connectionEstablished = false;
 
+
+    public Connection getConnection()
+    {
+        return m_Connection;
+    }
+
     /**
      * Creates a database objects and connects using MySQL.
      * @param host Hostname and port of the server separated by ':' in a single string.
@@ -135,7 +141,7 @@ public class Database
      * Prints the data from a ResultSet to the console.
      * @param rs ResultSet.
      */
-    public void PrintResultSet(ResultSet rs)
+    public static void PrintResultSet(ResultSet rs)
     {
         if(rs == null)
         {

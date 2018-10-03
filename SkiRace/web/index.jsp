@@ -1,5 +1,8 @@
 <%@ page import="company.database.Database" %>
 <%@ page import="java.sql.ResultSet" %>
+<%@ page import="objects.Participant" %>
+<%@ page import="java.util.ArrayList" %>
+<%@ page import="java.util.Collections" %>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
          pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
@@ -14,13 +17,18 @@ Race Results
 
 <%
 
-    Database db = new Database("10.0.0.254", "htl_skirace", "user", "PeterRendl69!");
+    Database db = new Database("faoiltiarna.ddns.net", "htl_skirace_2", "user", "PeterRendl69!");
 
-    ResultSet rs = db.Query("SELECT * FROM participants ORDER BY total ASC;");
+    ArrayList<Participant> participants;
 
-    out.println(db.PrintResultSetHTMLNice(rs));
+    participants = Participant.loadParticipants(db.getConnection());
+    Collections.sort(participants);
 
-    //db.CloseConnection();
+    out.println(Participant.getHTMLTable(participants));
+
+
+
+    db.CloseConnection();
 %>
 
 

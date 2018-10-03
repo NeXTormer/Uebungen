@@ -37,6 +37,11 @@ public class Category {
         }
     }
 
+    public String getShortName()
+    {
+        return m_Short;
+    }
+
     public String toString()
     {
         return m_Long + " (" + m_Short + ")";

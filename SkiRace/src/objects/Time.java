@@ -61,10 +61,21 @@ public class Time
         return m_Category;
     }
 
-    //TODO: Format peta
     public double getTime() {
         return m_Time;
     }
+
+    public String getTimeString()
+    {
+        int seconds = (int) (m_Time % 60);
+        int minutes = (int) m_Time - seconds;
+        int totalseconds = (int) m_Time;
+        double cseconds =  (m_Time - (double) totalseconds) * 100;
+        System.out.println(cseconds);
+
+        return String.format("%1d:%2d:%2.0f", minutes, seconds, cseconds);
+    }
+
 
     public String toString()
     {

@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Factory_SRDP_1516:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Factory_SRDP_1516_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Factory_SRDP_1516/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Factory_SRDP_1516" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

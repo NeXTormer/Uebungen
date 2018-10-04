@@ -185,12 +185,6 @@ public class Participant implements Comparable<Participant> {
         }
     };
 
-    public String getHTMLTableRow()
-    {
-        String tr = "<tr><td>" + m_ID + "</td><td>" + m_Name + " " + m_Surname + "</td><td>" + m_Category.getShortName() ;
-        return "werner";
-    }
-
     @Override
     public int compareTo(Participant o) {
         double endself = 0;

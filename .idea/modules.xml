@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AnimalFoodCollections/AnimalFoodCollections.iml" filepath="$PROJECT_DIR$/AnimalFoodCollections/AnimalFoodCollections.iml" />
       <module fileurl="file://$PROJECT_DIR$/Dynamic-Web-JSP-2/Dynamic-Web-JSP-2.iml" filepath="$PROJECT_DIR$/Dynamic-Web-JSP-2/Dynamic-Web-JSP-2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Factory_SRDP_1516/Factory_SRDP_1516.iml" filepath="$PROJECT_DIR$/Factory_SRDP_1516/Factory_SRDP_1516.iml" />
       <module fileurl="file://$PROJECT_DIR$/JDBC_1/JDBC_1.iml" filepath="$PROJECT_DIR$/JDBC_1/JDBC_1.iml" />
       <module fileurl="file://$PROJECT_DIR$/SerialIO1/SerialIO1.iml" filepath="$PROJECT_DIR$/SerialIO1/SerialIO1.iml" />
       <module fileurl="file://$PROJECT_DIR$/SkiRace/SkiRace.iml" filepath="$PROJECT_DIR$/SkiRace/SkiRace.iml" />

@@ -10,6 +10,15 @@
 <html>
 <head>
     <title>Order confirmation</title>
+
+    <style>
+        fieldset
+        {
+            background-color: #FFFFCC;
+        }
+    </style>
+
+
 </head>
 <body>
 
@@ -26,13 +35,7 @@
 
         Database db = new Database("faoiltiarna.ddns.net", "htl_factory", "user", "PeterRendl69!");
 
-
-        ResultSet catid = db.Query("SELECT id FROM category WHERE name = \"" + category + "\";");
-        catid.next();
-        int catidint = catid.getInt(1);
-
-
-        out.println(studentclass);
+        int catidint = Integer.valueOf(category);
 
         int orderid = db.Update("INSERT INTO orders (orderedby, category, schoolclass, projectname, comment) VALUES (?, ?, ?, ?, ?);", orderedby, String.valueOf(catidint), studentclass, project, comment);
 

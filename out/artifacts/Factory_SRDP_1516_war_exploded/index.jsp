@@ -1,4 +1,5 @@
-<%--
+<%@ page import="database.Database" %>
+<%@ page import="java.sql.ResultSet" %><%--
   Created by IntelliJ IDEA.
   User: Felix
   Date: 04/10/2018
@@ -9,10 +10,17 @@
 <html>
   <head>
     <title>HTL Factory</title>
+      <style>
+          fieldset
+          {
+              background-color: #FFFFCC;
+          }
+      </style>
+
   </head>
   <body>
 
-  <strong>New Order</strong>
+  <h1>New Order</h1>
   <br>
   <br>
   <fieldset>
@@ -24,9 +32,15 @@
                   </td>
                   <td>
                       <select name="category">
-                          <option value="1">3D Print</option>
-                          <option value="2">Lasercut</option>
-                          <option value="3">PCB</option>
+                          <%
+                              Database db = new Database("faoiltiarna.ddns.net", "htl_factory", "user", "PeterRendl69!");
+                              ResultSet categories = db.Query("SELECT * FROM category;");
+                              while(categories.next())
+                              {
+                                  out.println("<option value=\"" + categories.getInt(1) + "\">" + categories.getString(2) + "</option>");
+                              }
+                              db.CloseConnection();
+                          %>
                       </select>
 
                   </td>
@@ -44,7 +58,7 @@
                       Class:
                   </td>
                   <td>
-                      <input name="studenclass">
+                      <input name="studentclass">
                   </td>
               </tr>
               <tr>
@@ -77,7 +91,13 @@
 
   </fieldset>
 
+  <br>
 
+  <h2>Overview</h2>
+
+  <fieldset>
+      <a href="orders.jsp">show order overview</a>
+  </fieldset>
 
 
   </body>

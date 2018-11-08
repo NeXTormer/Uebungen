@@ -20,7 +20,6 @@ public class Job {
     private String m_Project;
     private String m_Comment;
 
-
     private Job(Category cat, int id, String student, String cl, String project, String comment)
     {
         m_Category = cat;

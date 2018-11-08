@@ -6,17 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="65dcd6a1-2baa-4ee2-8ec6-4acd233cf9ed" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/Raucherumfrage_SRDP_1415_war_exploded.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Raucherumfrage_SRDP_1415/Raucherumfrage_SRDP_1415.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Raucherumfrage_SRDP_1415/src/database/Database.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Raucherumfrage_SRDP_1415/src/objects/Category.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Raucherumfrage_SRDP_1415/src/objects/Participant.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Raucherumfrage_SRDP_1415/web/WEB-INF/web.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Factory_SRDP_1516/src/objects/Job.java" afterPath="$PROJECT_DIR$/Factory_SRDP_1516/src/objects/Job.java" />
-    </list>
+    <list default="true" id="65dcd6a1-2baa-4ee2-8ec6-4acd233cf9ed" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -97,7 +87,7 @@
         <entry file="file://$PROJECT_DIR$/Raucherumfrage_SRDP_1415/src/objects/Participant.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -884,16 +874,15 @@
       <workItem from="1539243387578" duration="5510000" />
       <workItem from="1539852383917" duration="1913000" />
       <workItem from="1540452421666" duration="2014000" />
-      <workItem from="1541668450908" duration="364000" />
+      <workItem from="1541668450908" duration="399000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67441000" />
+    <option name="totallyTimeSpent" value="67476000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1262,7 +1251,7 @@
     <entry file="file://$PROJECT_DIR$/Raucherumfrage_SRDP_1415/src/objects/Participant.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>

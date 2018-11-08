@@ -6,5 +6,5 @@ public class Participant {
     private String m_Gener;
     private Category m_Category;
 
-    
+
 }

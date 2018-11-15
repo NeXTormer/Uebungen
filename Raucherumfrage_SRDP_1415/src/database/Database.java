@@ -1,6 +1,9 @@
 package database;
 
+import objects.Category;
+
 import java.sql.*;
+import java.util.ArrayList;
 
 /**
  * Created by Felix on 25/12/2017.
@@ -164,6 +167,24 @@ public class Database
             e.printStackTrace();
             return;
         }
+    }
+
+    public String getCategoriesHTML()
+    {
+        ArrayList<Category> categories = Category.loadCategories(this);
+
+        StringBuilder sb = new StringBuilder(70);
+
+
+        for(Category c : categories)
+        {
+            sb.append("<input type=\"radio\" name=\"behaviour\" value=\"");
+            sb.append(c.getID());
+            sb.append("\">");
+            sb.append(c.getName());
+            sb.append("<br>");
+        }
+        return sb.toString();
     }
 
     public String PrintResultSetHTMLNice(ResultSet rs)

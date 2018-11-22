@@ -19,34 +19,14 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Tomcat 9.0.5" level="application_server_libraries" />
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://C:/Program Files/apache-tomcat-9.0.5/lib/servlet-api.jar!/" />
+          <root url="jar://$MODULE_DIR$/../lib/mysql-connector-java-5.1.14-bin.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://C:/Program Files/apache-tomcat-9.0.5/lib/tomcat-api.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/mysql-connector-java-5.1.14-bin.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="library" name="mysql-connector-java-5.1.14-bin" level="project" />
   </component>
 </module>

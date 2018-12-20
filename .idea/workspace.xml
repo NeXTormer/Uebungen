@@ -9,10 +9,7 @@
     <bookmark url="file://$PROJECT_DIR$/Homework-Tracker/web/process.jsp" line="26" mnemonic="9" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="65dcd6a1-2baa-4ee2-8ec6-4acd233cf9ed" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="65dcd6a1-2baa-4ee2-8ec6-4acd233cf9ed" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,8 +22,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Homework-Tracker/src/at/htlklu/holz/DBConnector.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="15" column="48" lean-forward="true" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+            <state relative-caret-position="420">
+              <caret line="21" column="24" lean-forward="true" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
               <folding>
                 <element signature="e#563#564#0" expanded="true" />
                 <element signature="e#596#597#0" expanded="true" />
@@ -191,7 +188,7 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="973" />
     <option name="width" value="954" />
     <option name="height" value="527" />
@@ -201,8 +198,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -274,12 +269,15 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545295839207" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/SkiRace/src" />
@@ -321,7 +319,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.HomeworkTracker">
+  <component name="RunManager" selected="Application.Multithreading 1">
     <configuration name="JDBC_1" type="Application" factoryName="Application">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -333,6 +331,13 @@
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Multithreading 1" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="threads.DemoProgram" />
+      <module name="Multithreading_1" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -891,6 +896,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Multithreading 1" />
       <item itemvalue="Application.skirace-test" />
       <item itemvalue="Application.socket-1-server" />
       <item itemvalue="Application.socket-1-client" />
@@ -954,17 +960,17 @@
       <workItem from="1542875773226" duration="5816000" />
       <workItem from="1543475687884" duration="414000" />
       <workItem from="1543479730761" duration="147000" />
+      <workItem from="1543479906212" duration="909000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87581000" />
+    <option name="totallyTimeSpent" value="88490000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6539683" visible="true" weight="0.1673774" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6539683" visible="true" weight="0.16897655" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -1317,8 +1323,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Homework-Tracker/src/at/htlklu/holz/DBConnector.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="48" lean-forward="true" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+        <state relative-caret-position="420">
+          <caret line="21" column="24" lean-forward="true" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
           <folding>
             <element signature="e#563#564#0" expanded="true" />
             <element signature="e#596#597#0" expanded="true" />

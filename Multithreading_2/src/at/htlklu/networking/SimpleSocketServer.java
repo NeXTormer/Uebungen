@@ -14,10 +14,10 @@ public class SimpleSocketServer
     {
         try
         {
+            ServerSocket ss = new ServerSocket(5555);
 
             while(true)
             {
-                ServerSocket ss = new ServerSocket(5555);
                 System.out.println("Server listening on port 5555...");
                 System.out.println("Waiting for connection...");
 

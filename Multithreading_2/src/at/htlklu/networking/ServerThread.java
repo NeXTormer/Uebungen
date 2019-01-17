@@ -22,11 +22,10 @@ public class ServerThread extends Thread
     {
         PrintWriter out = null;
 
-        try
+        String inwerner = "";
+        do
         {
-
-            String inwerner = "";
-            do
+            try
             {
                 out = new PrintWriter(socket.getOutputStream());
 
@@ -41,19 +40,17 @@ public class ServerThread extends Thread
 
                 out.println("you wrote: " + input);
                 out.flush();
-                
+
                 inwerner = input;
+                System.out.println(inwerner);
+            } catch (IOException e)
+            {
+                e.printStackTrace();
             }
-            while(!inwerner.equals("exit"));
 
-            socket.close();
         }
-        catch (IOException e)
-        {
-            e.printStackTrace();
-        }
-
-
+        while (!inwerner.equals("exit"));
     }
+
 
 }

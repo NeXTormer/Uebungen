@@ -10,12 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="65dcd6a1-2baa-4ee2-8ec6-4acd233cf9ed" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Multithreading_2/src/at/htlklu/networking/MultithreadedServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Multithreading_2/src/at/htlklu/networking/ServerThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Multithreading_2/src/at/htlklu/networking/SimpleSocketServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Multithreading_2/src/at/htlklu/networking/SimpleClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Multithreading_2/src/at/htlklu/networking/ServerThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/Multithreading_2/src/at/htlklu/networking/ServerThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Multithreading_2/src/at/htlklu/networking/SimpleSocketServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Multithreading_2/src/at/htlklu/networking/SimpleSocketServer.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,8 +39,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Multithreading_2/src/at/htlklu/networking/SimpleSocketServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="28" lean-forward="true" selection-start-line="25" selection-start-column="16" selection-end-line="28" />
+            <state relative-caret-position="140">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -54,8 +51,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Multithreading_2/src/at/htlklu/networking/MultithreadedServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
-              <caret line="30" column="13" lean-forward="true" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+            <state relative-caret-position="373">
+              <caret line="27" column="53" lean-forward="true" selection-start-line="27" selection-start-column="53" selection-end-line="27" selection-end-column="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Multithreading_2/src/at/htlklu/networking/ServerThread.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="555">
+              <caret line="45" column="35" lean-forward="true" selection-start-line="45" selection-start-column="35" selection-end-line="45" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -64,67 +73,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Multithreading_2/src/at/htlklu/networking/ServerThread.java">
+        <entry file="file://$PROJECT_DIR$/Multithreading_2/src/at/htlklu/networking/SimpleClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="565">
-              <caret line="43" column="16" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Homework-Tracker/web/index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
-              <caret line="44" selection-start-line="44" selection-end-line="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Homework-Tracker/web/process.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Homework-Tracker/web/list.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" column="36" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Homework-Tracker/src/at/htlklu/holz/Task.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="42" column="62" selection-start-line="42" selection-start-column="62" selection-end-line="42" selection-end-column="62" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1285#1286#0" expanded="true" />
-                <element signature="e#1319#1320#0" expanded="true" />
-                <element signature="e#1353#1354#0" expanded="true" />
-                <element signature="e#1383#1384#0" expanded="true" />
-                <element signature="e#1415#1416#0" expanded="true" />
-                <element signature="e#1445#1446#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Homework-Tracker/src/at/htlklu/holz/TaskDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+            <state relative-caret-position="202">
+              <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -170,7 +122,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Sockets-1/src/Client.java" />
         <option value="$PROJECT_DIR$/Sockets-1/src/Server.java" />
         <option value="$PROJECT_DIR$/Stockmarket/src/Stockmarket.java" />
         <option value="$PROJECT_DIR$/Dynamic-Web-JSP-2/src/company/database/Database.java" />
@@ -218,9 +169,10 @@
         <option value="$PROJECT_DIR$/Homework-Tracker/src/at/htlklu/holz/Task.java" />
         <option value="$PROJECT_DIR$/Homework-Tracker/web/list.jsp" />
         <option value="$PROJECT_DIR$/Homework-Tracker/src/at/htlklu/holz/DBConnector.java" />
-        <option value="$PROJECT_DIR$/Multithreading_2/src/at/htlklu/networking/SimpleSocketServer.java" />
         <option value="$PROJECT_DIR$/Multithreading_2/src/at/htlklu/networking/MultithreadedServer.java" />
+        <option value="$PROJECT_DIR$/Multithreading_2/src/at/htlklu/networking/SimpleSocketServer.java" />
         <option value="$PROJECT_DIR$/Multithreading_2/src/at/htlklu/networking/ServerThread.java" />
+        <option value="$PROJECT_DIR$/Multithreading_2/src/at/htlklu/networking/SimpleClient.java" />
       </list>
     </option>
   </component>
@@ -329,7 +281,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547719249921" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547720557176" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/SkiRace/src" />
@@ -388,7 +340,7 @@
       </method>
     </configuration>
     <configuration name="Multithreading 2 SSS" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="at.htlklu.networking.SimpleSocketServer" />
+      <option name="MAIN_CLASS_NAME" value="at.htlklu.networking.MultithreadedServer" />
       <module name="Multithreading_2" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -1021,15 +973,15 @@
       <workItem from="1543475687884" duration="414000" />
       <workItem from="1543479730761" duration="147000" />
       <workItem from="1543479906212" duration="909000" />
-      <workItem from="1547715020552" duration="2955000" />
+      <workItem from="1547715020552" duration="4191000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91445000" />
+    <option name="totallyTimeSpent" value="92681000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6539683" visible="true" weight="0.1705757" />
@@ -1042,7 +994,7 @@
       <window_info id="Web" order="7" sideWeight="0.34603176" side_tool="true" weight="0.23958333" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286334" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.15059589" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2936078" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39804772" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1083,13 +1035,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Sockets-1/src/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Dynamic-Web-JSP-2/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -1373,20 +1318,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Homework-Tracker/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Homework-Tracker/web/process.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Homework-Tracker/web/list.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
@@ -1420,30 +1351,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Multithreading_2/src/at/htlklu/networking/SimpleSocketServer.java">
+    <entry file="file://$PROJECT_DIR$/Multithreading_2/src/at/htlklu/networking/MultithreadedServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="28" lean-forward="true" selection-start-line="25" selection-start-column="16" selection-end-line="28" />
+        <state relative-caret-position="373">
+          <caret line="27" column="53" lean-forward="true" selection-start-line="27" selection-start-column="53" selection-end-line="27" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Multithreading_2/src/at/htlklu/networking/MultithreadedServer.java">
+    <entry file="file://$PROJECT_DIR$/Multithreading_2/src/at/htlklu/networking/SimpleSocketServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="30" column="13" lean-forward="true" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+        <state relative-caret-position="140">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Homework-Tracker/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Homework-Tracker/web/process.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Multithreading_2/src/at/htlklu/networking/ServerThread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="565">
-          <caret line="43" column="16" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
+        <state relative-caret-position="555">
+          <caret line="45" column="35" lean-forward="true" selection-start-line="45" selection-start-column="35" selection-end-line="45" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Multithreading_2/src/at/htlklu/networking/SimpleClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

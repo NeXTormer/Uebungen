@@ -189,7 +189,8 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="973" />
+    <option name="x" value="328" />
+    <option name="y" value="150" />
     <option name="width" value="954" />
     <option name="height" value="527" />
   </component>
@@ -281,7 +282,7 @@
     <property name="create.test.in.the.same.root" value="true" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/SkiRace/src" />
-    <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />

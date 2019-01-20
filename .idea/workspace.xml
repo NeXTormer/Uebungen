@@ -209,7 +209,8 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="973" />
+    <option name="x" value="328" />
+    <option name="y" value="150" />
     <option name="width" value="954" />
     <option name="height" value="527" />
   </component>
@@ -228,6 +229,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -319,7 +322,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545295839207" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547720557176" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/SkiRace/src" />
@@ -327,26 +330,26 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Dev\Projects\Uebungen" />
+      <recent name="C:\Dev\Projects\Uebungen\Homework-Tracker\web\WEB-INF" />
+      <recent name="C:\Dev\Projects\Uebungen\Jahresbericht\web" />
+      <recent name="C:\Dev\Projects\Uebungen\Raucherumfrage_SRDP_1415\web\WEB-INF\lib" />
+      <recent name="C:\Dev\Projects\Uebungen\Raucherumfrage_SRDP_1415\src" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="database" />
+      <recent name="" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Dev\Projects\Uebungen\Homework-Tracker\web" />
       <recent name="C:\Dev\Projects\Uebungen\Dynamic-Web-JSP-2\src" />
       <recent name="C:\Dev\Projects\Uebungen\Dynamic-Web-JSP-2\web" />
       <recent name="C:\Dev\Projects\Uebungen\Dynamic-Web-JSP\src" />
       <recent name="C:\Users\Felix\IdeaProjects\Uebungen\AnimalFoodCollections" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="database" />
-      <recent name="" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Dev\Projects\Uebungen\Homework-Tracker\web\WEB-INF" />
-      <recent name="C:\Dev\Projects\Uebungen\Jahresbericht\web" />
-      <recent name="C:\Dev\Projects\Uebungen\Raucherumfrage_SRDP_1415\web\WEB-INF\lib" />
-      <recent name="C:\Dev\Projects\Uebungen\Raucherumfrage_SRDP_1415\src" />
-      <recent name="C:\Dev\Projects\Uebungen\Factory_SRDP_1516\web\WEB-INF" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1545,7 +1548,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.8</last-edited>
+          <last-edited>1.8.0_191</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1557,12 +1560,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>AnimalFoodCollections</last-edited>
+          <last-edited>Multithreading_2</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

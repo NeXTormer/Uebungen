@@ -25,4 +25,12 @@ public class Database
     {
         return data;
     }
+
+    public ArrayList<SkiResort> getResorts()
+    {
+        ArrayList<SkiResort> resorts = new ArrayList<SkiResort>();
+        resorts.add(new SkiResort("Grebenzen"));
+
+        return resorts;
+    }
 }

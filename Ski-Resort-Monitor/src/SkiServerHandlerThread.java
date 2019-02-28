@@ -4,6 +4,7 @@ import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.Socket;
 import java.sql.Date;
+import java.time.LocalDate;
 
 public class SkiServerHandlerThread extends Thread
 {
@@ -29,7 +30,7 @@ public class SkiServerHandlerThread extends Thread
 
                 if(split[0].equalsIgnoreCase("ADD") && split.length == 4)
                 {
-                    SkiData sd = new SkiData(split[1], Integer.parseInt(split[2]), Date.valueOf(split[3]));
+                    SkiData sd = new SkiData(new SkiResort(split[1]), Integer.parseInt(split[2]), LocalDate.parse(split[3]));
                     if(Database.getInstance().getData().add(sd))
                     {
                         out.println("OK");
@@ -47,6 +48,13 @@ public class SkiServerHandlerThread extends Thread
                         out.println(sd);
                     }
                     out.flush();
+                }
+                else if(split[0].equalsIgnoreCase("INIT") && split.length == 1)
+                {
+                    for(SkiResort r : Database.getInstance().getResorts())
+                    {
+                        out.println(r.getName());
+                    }
                 }
                 else
                 {

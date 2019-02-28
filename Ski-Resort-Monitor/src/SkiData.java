@@ -1,27 +1,28 @@
+import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.Date;
 
 public class SkiData
 {
-    private String name;
+    private SkiResort resort;
     private int snowDepth;
-    private Date date;
+    private LocalDate date;
 
-    public SkiData(String _name, int snowDepth_, Date date_)
+    public SkiData(SkiResort resort, int snowDepth_, LocalDate date_)
     {
-        this.name = _name;
+        this.resort = resort;
         this.snowDepth = snowDepth_;
         this.date = date_;
     }
 
-    public Date getDate()
+    public LocalDate getDate()
     {
         return date;
     }
 
-    public String getName()
+    public SkiResort getName()
     {
-        return name;
+        return resort;
     }
 
     public int getSnowDepth()
@@ -32,6 +33,6 @@ public class SkiData
     @Override
     public String toString()
     {
-        return name + "*" + snowDepth + "*" + date.toString();
+        return resort + "*" + snowDepth + "*" + date.format(DateTimeFormatter.ISO_LOCAL_DATE);
     }
 }

@@ -1,6 +1,5 @@
 package objects;
 
-import com.sun.org.apache.xpath.internal.SourceTree;
 import database.Database;
 
 import java.sql.ResultSet;

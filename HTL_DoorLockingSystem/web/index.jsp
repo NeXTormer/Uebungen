@@ -30,6 +30,11 @@
 
   <table>
 
+    <tr>
+      <th>Room</th>
+      <th>Status</th>
+    </tr>
+
     <%
 
       String visibility = request.getParameter("visibility");
@@ -38,7 +43,14 @@
 
       for(Room r : rooms)
       {
-        out.println(r.getId());
+        out.println("<tr>");
+        out.println("<td>");
+        out.println(r.getName());
+        out.println("</td>");
+        out.println("<td>");
+        out.println(r.isLocked() ? "locked" : "unlocked");
+        out.println("</td>");
+        out.println("</tr>");
       }
 
 

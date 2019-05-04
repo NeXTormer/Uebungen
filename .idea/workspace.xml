@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="HTL_DoorLockingSystem:war exploded" />
+      <artifact name="Factory_SRDP_1516_2:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="BookmarkManager">
@@ -10,16 +10,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="65dcd6a1-2baa-4ee2-8ec6-4acd233cf9ed" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTL_DoorLockingSystem/src/server/Server.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTL_DoorLockingSystem/src/server/ServerThread.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/HTL_DoorLockingSystem_war_exploded/lib/mysql-connector-java-5.1.14-bin.jar" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/HTL_DoorLockingSystem/web/lib/mysql-connector-java-5.1.14-bin.jar" afterPath="$PROJECT_DIR$/HTL_DoorLockingSystem/web/WEB-INF/lib/mysql-connector-java-5.1.14-bin.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Factory_SRDP_1516_2/web/WEB-INF/lib/mysql-connector-java-5.1.45-bin.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/Factory_SRDP_1516_2_war_exploded.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Factory_SRDP_1516_2/Factory_SRDP_1516_2.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Factory_SRDP_1516_2/src/factory/Category.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Factory_SRDP_1516_2/src/factory/Job.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Factory_SRDP_1516_2/src/factory/db/CategoryDAO.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Factory_SRDP_1516_2/src/factory/db/Database.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Factory_SRDP_1516_2/src/factory/db/JobDAO.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Factory_SRDP_1516_2/src/factory/sockets/Client.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Factory_SRDP_1516_2/src/factory/sockets/Server.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Factory_SRDP_1516_2/src/factory/sockets/ServerThread.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Factory_SRDP_1516_2/web/WEB-INF/web.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Factory_SRDP_1516_2/web/delete.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Factory_SRDP_1516_2/web/overview.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Factory_SRDP_1516_2/web/process.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NetworkingMultithrad3/src/htl/Server.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NetworkingMultithrad3/src/htl/ServerThread.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTL_DoorLockingSystem/HTL_DoorLockingSystem.iml" afterPath="$PROJECT_DIR$/HTL_DoorLockingSystem/HTL_DoorLockingSystem.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTL_DoorLockingSystem/src/obj/Room.java" afterPath="$PROJECT_DIR$/HTL_DoorLockingSystem/src/obj/Room.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTL_DoorLockingSystem/src/obj/RoomDAO.java" afterPath="$PROJECT_DIR$/HTL_DoorLockingSystem/src/obj/RoomDAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTL_DoorLockingSystem/web/index.jsp" afterPath="$PROJECT_DIR$/HTL_DoorLockingSystem/web/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/HTL_DoorLockingSystem_war_exploded/index.jsp" afterPath="$PROJECT_DIR$/out/artifacts/HTL_DoorLockingSystem_war_exploded/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTL_DoorLockingSystem/src/obj/Database.java" afterPath="$PROJECT_DIR$/HTL_DoorLockingSystem/src/obj/Database.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,23 +39,16 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Uebungen$Factory_2_Client.coverage" NAME="Factory_2_Client Coverage Results" MODIFIED="1556991474914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HTL_DoorLockingSystem/web/index.jsp">
+      <file leaf-file-name="Server.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Factory_SRDP_1516_2/src/factory/sockets/Server.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="776">
-              <caret line="41" column="57" lean-forward="false" selection-start-line="41" selection-start-column="57" selection-end-line="41" selection-end-column="57" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Server.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HTL_DoorLockingSystem/src/server/Server.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="19" column="27" lean-forward="false" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+            <state relative-caret-position="561">
+              <caret line="17" column="40" lean-forward="false" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -54,57 +57,39 @@
         </entry>
       </file>
       <file leaf-file-name="ServerThread.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HTL_DoorLockingSystem/src/server/ServerThread.java">
+        <entry file="file://$PROJECT_DIR$/Factory_SRDP_1516_2/src/factory/sockets/ServerThread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="55" column="42" lean-forward="true" selection-start-line="55" selection-start-column="42" selection-end-line="55" selection-end-column="42" />
+            <state relative-caret-position="497">
+              <caret line="43" column="42" lean-forward="true" selection-start-line="43" selection-start-column="42" selection-end-line="43" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#311#312#0" expanded="true" />
-                <element signature="e#342#343#0" expanded="true" />
+                <element signature="e#308#309#0" expanded="true" />
+                <element signature="e#339#340#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Database.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HTL_DoorLockingSystem/src/obj/Database.java">
+      <file leaf-file-name="Client.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Factory_SRDP_1516_2/src/factory/sockets/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="535">
-              <caret line="27" column="36" lean-forward="false" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Room.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HTL_DoorLockingSystem/src/obj/Room.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="30" column="66" lean-forward="false" selection-start-line="30" selection-start-column="66" selection-end-line="30" selection-end-column="66" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RoomDAO.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/HTL_DoorLockingSystem/src/obj/RoomDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="892">
-              <caret line="76" column="9" lean-forward="false" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
+            <state relative-caret-position="519">
+              <caret line="29" column="52" lean-forward="false" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
               <folding>
-                <marker date="1553544036575" expanded="true" signature="1424:1464" ph="UPDATE rooms... " />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Homework-Tracker/web/index.jsp">
+      <file leaf-file-name="CategoryDAO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Factory_SRDP_1516_2/src/factory/db/CategoryDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="501">
-              <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="230">
+              <caret line="14" column="63" lean-forward="false" selection-start-line="14" selection-start-column="63" selection-end-line="14" selection-end-column="63" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -117,8 +102,8 @@
         <option value="HTML File" />
         <option value="jsf" />
         <option value="Tag Library Descriptor" />
-        <option value="Jsp File" />
         <option value="Kotlin File" />
+        <option value="Jsp File" />
         <option value="Class" />
       </list>
     </option>
@@ -136,6 +121,7 @@
       <find>cat</find>
       <find>Werner</find>
       <find>prepa</find>
+      <find>connected</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -153,20 +139,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Factory_SRDP_1516/src/objects/Job.java" />
-        <option value="$PROJECT_DIR$/Factory_SRDP_1516/web/index.jsp" />
-        <option value="$PROJECT_DIR$/Raucherumfrage_SRDP_1415/src/objects/Participant.java" />
-        <option value="$PROJECT_DIR$/Raucherumfrage_SRDP_1415/src/objects/Category.java" />
-        <option value="$PROJECT_DIR$/Raucherumfrage_SRDP_1415/src/database/Database.java" />
-        <option value="$PROJECT_DIR$/Raucherumfrage_SRDP_1415/web/process.jsp" />
-        <option value="$PROJECT_DIR$/Raucherumfrage_SRDP_1415/src/objects/CetegoryEntry.java" />
-        <option value="$PROJECT_DIR$/Raucherumfrage_SRDP_1415/web/index.jsp" />
-        <option value="$PROJECT_DIR$/Raucherumfrage_SRDP_1415/src/objects/Group.java" />
-        <option value="$PROJECT_DIR$/Raucherumfrage_SRDP_1415/web/results.jsp" />
-        <option value="$PROJECT_DIR$/Jahresbericht/src/Database.java" />
-        <option value="$PROJECT_DIR$/Jahresbericht/src/database/Database.java" />
-        <option value="$PROJECT_DIR$/Jahresbericht/src/database/Articles.java" />
-        <option value="$PROJECT_DIR$/Jahresbericht/web/view.jsp" />
         <option value="$PROJECT_DIR$/Jahresbericht/web/process.jsp" />
         <option value="$PROJECT_DIR$/Jahresbericht/web/index.jsp" />
         <option value="$PROJECT_DIR$/Homework-Tracker/src/DBConnector.java" />
@@ -198,12 +170,26 @@
         <option value="$PROJECT_DIR$/HTL_DoorLockingSystem/src/Database.java" />
         <option value="$PROJECT_DIR$/HTL_DoorLockingSystem/src/RoomDAO.java" />
         <option value="$PROJECT_DIR$/HTL_DoorLockingSystem/src/Room.java" />
-        <option value="$PROJECT_DIR$/HTL_DoorLockingSystem/src/obj/Database.java" />
         <option value="$PROJECT_DIR$/HTL_DoorLockingSystem/web/index.jsp" />
         <option value="$PROJECT_DIR$/HTL_DoorLockingSystem/src/server/Server.java" />
         <option value="$PROJECT_DIR$/HTL_DoorLockingSystem/src/obj/Room.java" />
         <option value="$PROJECT_DIR$/HTL_DoorLockingSystem/src/obj/RoomDAO.java" />
         <option value="$PROJECT_DIR$/HTL_DoorLockingSystem/src/server/ServerThread.java" />
+        <option value="$PROJECT_DIR$/NetworkingMultithrad3/src/htl/ServerThread.java" />
+        <option value="$PROJECT_DIR$/HTL_DoorLockingSystem/src/obj/Database.java" />
+        <option value="$PROJECT_DIR$/NetworkingMultithrad3/src/htl/Server.java" />
+        <option value="$PROJECT_DIR$/Factory_SRDP_1516_2/src/factory/db/Database.java" />
+        <option value="$PROJECT_DIR$/Factory_SRDP_1516_2/src/factory/db/CategoryDAO.java" />
+        <option value="$PROJECT_DIR$/Factory_SRDP_1516_2/src/factory/Category.java" />
+        <option value="$PROJECT_DIR$/Factory_SRDP_1516_2/web/process.jsp" />
+        <option value="$PROJECT_DIR$/Factory_SRDP_1516_2/src/factory/Job.java" />
+        <option value="$PROJECT_DIR$/Factory_SRDP_1516_2/src/factory/db/JobDAO.java" />
+        <option value="$PROJECT_DIR$/Factory_SRDP_1516_2/web/delete.jsp" />
+        <option value="$PROJECT_DIR$/Factory_SRDP_1516_2/web/index.jsp" />
+        <option value="$PROJECT_DIR$/Factory_SRDP_1516_2/web/overview.jsp" />
+        <option value="$PROJECT_DIR$/Factory_SRDP_1516_2/src/factory/sockets/Server.java" />
+        <option value="$PROJECT_DIR$/Factory_SRDP_1516_2/src/factory/sockets/Client.java" />
+        <option value="$PROJECT_DIR$/Factory_SRDP_1516_2/src/factory/sockets/ServerThread.java" />
       </list>
     </option>
   </component>
@@ -221,8 +207,8 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1002" />
-    <option name="y" value="350" />
+    <option name="x" value="377" />
+    <option name="y" value="-8" />
     <option name="width" value="954" />
     <option name="height" value="527" />
   </component>
@@ -257,8 +243,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -269,54 +253,53 @@
             <path>
               <item name="Uebungen" type="b2602c69:ProjectViewProjectNode" />
               <item name="Uebungen" type="462c0819:PsiDirectoryNode" />
-              <item name="HTL_DoorLockingSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="Factory_SRDP_1516_2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Uebungen" type="b2602c69:ProjectViewProjectNode" />
               <item name="Uebungen" type="462c0819:PsiDirectoryNode" />
-              <item name="HTL_DoorLockingSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="Factory_SRDP_1516_2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Uebungen" type="b2602c69:ProjectViewProjectNode" />
               <item name="Uebungen" type="462c0819:PsiDirectoryNode" />
-              <item name="HTL_DoorLockingSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="Factory_SRDP_1516_2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="obj" type="462c0819:PsiDirectoryNode" />
+              <item name="factory" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Uebungen" type="b2602c69:ProjectViewProjectNode" />
               <item name="Uebungen" type="462c0819:PsiDirectoryNode" />
-              <item name="HTL_DoorLockingSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="Factory_SRDP_1516_2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="factory" type="462c0819:PsiDirectoryNode" />
+              <item name="sockets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Uebungen" type="b2602c69:ProjectViewProjectNode" />
               <item name="Uebungen" type="462c0819:PsiDirectoryNode" />
-              <item name="HTL_DoorLockingSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="Factory_SRDP_1516_2" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Uebungen" type="b2602c69:ProjectViewProjectNode" />
               <item name="Uebungen" type="462c0819:PsiDirectoryNode" />
-              <item name="HTL_DoorLockingSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="Sockets-1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Uebungen" type="b2602c69:ProjectViewProjectNode" />
               <item name="Uebungen" type="462c0819:PsiDirectoryNode" />
-              <item name="HTL_DoorLockingSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="Sockets-1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -329,7 +312,7 @@
     <property name="last_directory_selection" value="$PROJECT_DIR$/SkiRace/src" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/HTL_DoorLockingSystem/web/WEB-INF/lib/mysql-connector-java-5.1.14-bin.jar!/" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -347,11 +330,11 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Dev\Projects\Uebungen\Factory_SRDP_1516_2\web\WEB-INF\lib" />
       <recent name="C:\Dev\Projects\Uebungen\HTL_DoorLockingSystem\web" />
       <recent name="C:\Dev\Projects\Uebungen" />
       <recent name="C:\Dev\Projects\Uebungen\Homework-Tracker\web\WEB-INF" />
       <recent name="C:\Dev\Projects\Uebungen\Jahresbericht\web" />
-      <recent name="C:\Dev\Projects\Uebungen\Raucherumfrage_SRDP_1415\web\WEB-INF\lib" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -366,7 +349,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DoorLockingSystem">
+  <component name="RunManager" selected="Application.Factory_2_Client">
     <configuration name="DWeb1" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.5" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
@@ -526,6 +509,78 @@
       <module name="HTL_DoorLockingSystem" />
       <envs />
     </configuration>
+    <configuration name="Factory 2" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.5" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="Factory_SRDP_1516_2:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_Uebungen_4" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="52372" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Factory_SRDP_1516_2:war exploded" />
+        </option>
+      </method>
+    </configuration>
     <configuration name="Factory" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.5" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
@@ -597,6 +652,34 @@
           <artifact name="Factory_SRDP_1516:war exploded" />
         </option>
       </method>
+    </configuration>
+    <configuration name="Factory_2_Client" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="factory.sockets.Client" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Factory_SRDP_1516_2" />
+      <envs />
+    </configuration>
+    <configuration name="Factory_2_Server" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="factory.sockets.Server" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Factory_SRDP_1516_2" />
+      <envs />
     </configuration>
     <configuration name="HomeworkTracker" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.5" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATING_POLICY" value="restart-server" />
@@ -1143,29 +1226,32 @@
       <module name="Sockets-1" />
       <envs />
     </configuration>
-    <list size="22">
-      <item index="0" class="java.lang.String" itemvalue="Application.DoorLockingSystem" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Stockmarket-Client" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Multithreading 2" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Stockmarket-Server" />
-      <item index="4" class="java.lang.String" itemvalue="Application.skirace-test" />
-      <item index="5" class="java.lang.String" itemvalue="Application.ski-resort server" />
-      <item index="6" class="java.lang.String" itemvalue="Application.JDBC_1" />
-      <item index="7" class="java.lang.String" itemvalue="Application.Main" />
-      <item index="8" class="java.lang.String" itemvalue="Application.socket-1-client" />
-      <item index="9" class="java.lang.String" itemvalue="Application.Multithreading 1" />
-      <item index="10" class="java.lang.String" itemvalue="Application.animalfoodcollections" />
-      <item index="11" class="java.lang.String" itemvalue="Application.serialio1" />
-      <item index="12" class="java.lang.String" itemvalue="Application.socket-1-server" />
-      <item index="13" class="java.lang.String" itemvalue="Application.TicketServer" />
-      <item index="14" class="java.lang.String" itemvalue="Tomcat Server.Door Locking System" />
-      <item index="15" class="java.lang.String" itemvalue="Tomcat Server.Tomcat 9.0.5 (DWEB2)" />
-      <item index="16" class="java.lang.String" itemvalue="Tomcat Server.Factory" />
-      <item index="17" class="java.lang.String" itemvalue="Tomcat Server.DWeb1" />
-      <item index="18" class="java.lang.String" itemvalue="Tomcat Server.HomeworkTracker" />
-      <item index="19" class="java.lang.String" itemvalue="Tomcat Server.Raucherumfrage" />
-      <item index="20" class="java.lang.String" itemvalue="Tomcat Server.skirace-tomcat" />
-      <item index="21" class="java.lang.String" itemvalue="Tomcat Server.Jahresbericht" />
+    <list size="25">
+      <item index="0" class="java.lang.String" itemvalue="Application.Factory_2_Server" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Factory_2_Client" />
+      <item index="2" class="java.lang.String" itemvalue="Application.DoorLockingSystem" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Stockmarket-Client" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Multithreading 2" />
+      <item index="5" class="java.lang.String" itemvalue="Application.Stockmarket-Server" />
+      <item index="6" class="java.lang.String" itemvalue="Application.skirace-test" />
+      <item index="7" class="java.lang.String" itemvalue="Application.ski-resort server" />
+      <item index="8" class="java.lang.String" itemvalue="Application.JDBC_1" />
+      <item index="9" class="java.lang.String" itemvalue="Application.Main" />
+      <item index="10" class="java.lang.String" itemvalue="Application.socket-1-client" />
+      <item index="11" class="java.lang.String" itemvalue="Application.Multithreading 1" />
+      <item index="12" class="java.lang.String" itemvalue="Application.animalfoodcollections" />
+      <item index="13" class="java.lang.String" itemvalue="Application.serialio1" />
+      <item index="14" class="java.lang.String" itemvalue="Application.socket-1-server" />
+      <item index="15" class="java.lang.String" itemvalue="Application.TicketServer" />
+      <item index="16" class="java.lang.String" itemvalue="Tomcat Server.Factory 2" />
+      <item index="17" class="java.lang.String" itemvalue="Tomcat Server.Door Locking System" />
+      <item index="18" class="java.lang.String" itemvalue="Tomcat Server.Tomcat 9.0.5 (DWEB2)" />
+      <item index="19" class="java.lang.String" itemvalue="Tomcat Server.Factory" />
+      <item index="20" class="java.lang.String" itemvalue="Tomcat Server.DWeb1" />
+      <item index="21" class="java.lang.String" itemvalue="Tomcat Server.HomeworkTracker" />
+      <item index="22" class="java.lang.String" itemvalue="Tomcat Server.Raucherumfrage" />
+      <item index="23" class="java.lang.String" itemvalue="Tomcat Server.skirace-tomcat" />
+      <item index="24" class="java.lang.String" itemvalue="Tomcat Server.Jahresbericht" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -1224,15 +1310,22 @@
       <workItem from="1551301876733" duration="1494000" />
       <workItem from="1551343396186" duration="662000" />
       <workItem from="1551344138229" duration="3209000" />
-      <workItem from="1553538581606" duration="5730000" />
+      <workItem from="1553538581606" duration="6182000" />
+      <workItem from="1553545274557" duration="1299000" />
+      <workItem from="1553548164272" duration="788000" />
+      <workItem from="1553712241809" duration="2519000" />
+      <workItem from="1556961411609" duration="4034000" />
+      <workItem from="1556976595562" duration="2643000" />
+      <workItem from="1556986916598" duration="4397000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111601000" />
+    <option name="totallyTimeSpent" value="127733000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32945737" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1241,23 +1334,24 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32945737" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22170542" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32945737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29379845" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32945737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1276,126 +1370,11 @@
           <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="3" />
+      <option name="time" value="11" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Raucherumfrage_SRDP_1415/src/objects/Category.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1041">
-          <caret line="61" column="10" lean-forward="false" selection-start-line="61" selection-start-column="10" selection-end-line="61" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Factory_SRDP_1516/src/objects/JobGroup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="31" lean-forward="false" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Homework-Tracker/src/DBConnector.java" />
-    <entry file="file://$PROJECT_DIR$/Factory_SRDP_1516/src/database/Database.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3381">
-          <caret line="123" column="50" lean-forward="true" selection-start-line="123" selection-start-column="50" selection-end-line="123" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Raucherumfrage_SRDP_1415/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="36" column="42" lean-forward="false" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Raucherumfrage_SRDP_1415/web/process.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="523">
-          <caret line="26" column="2" lean-forward="true" selection-start-line="26" selection-start-column="2" selection-end-line="26" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/text/SimpleDateFormat.java" />
-    <entry file="file://$PROJECT_DIR$/Homework-Tracker/src/at/htlklu/holz/DBConnector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Homework-Tracker/web/process.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Homework-Tracker/src/at/htlklu/holz/Task.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="874">
-          <caret line="42" column="62" lean-forward="false" selection-start-line="42" selection-start-column="62" selection-end-line="42" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Raucherumfrage_SRDP_1415/src/database/Database.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="841">
-          <caret line="256" column="36" lean-forward="false" selection-start-line="256" selection-start-column="36" selection-end-line="256" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Homework-Tracker/src/at/htlklu/holz/TaskDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="5" lean-forward="false" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Multithreading_1/src/threads/PingThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Multithreading_1/src/threads/DemoProgram.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/lang/Thread.java" />
-    <entry file="file://$PROJECT_DIR$/Multithrading_2/src/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="43" column="39" lean-forward="false" selection-start-line="43" selection-start-column="39" selection-end-line="43" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Multithrading_2/src/StoppableCounterThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Multithrading_2/src/CounterThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="19" column="9" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="19" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Multithrading_2/src/CounterRunnable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Multithrading_2/src/ThreadUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1435,7 +1414,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1445,9 +1423,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="805">
           <caret line="36" column="5" lean-forward="false" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1455,7 +1430,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1463,7 +1437,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="690">
           <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1471,19 +1444,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="8" column="5" lean-forward="false" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#711#712#0" expanded="false" />
-            <element signature="e#739#740#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sockets-1/src/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="13" column="53" lean-forward="false" selection-start-line="13" selection-start-column="53" selection-end-line="13" selection-end-column="53" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1491,7 +1451,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="880">
           <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1499,65 +1458,31 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTL_DoorLockingSystem/src/RoomDAO.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTL_DoorLockingSystem/src/Room.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="10" column="29" lean-forward="false" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTL_DoorLockingSystem/src/Database.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="71" lean-forward="false" selection-start-line="9" selection-start-column="71" selection-end-line="9" selection-end-column="71" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/HTL_DoorLockingSystem/src/RoomDAO.kt" />
+    <entry file="file://$PROJECT_DIR$/HTL_DoorLockingSystem/src/Room.java" />
+    <entry file="file://$PROJECT_DIR$/HTL_DoorLockingSystem/src/Database.java" />
     <entry file="file://$PROJECT_DIR$/Dynamic-Web-JSP-2/web/process.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-69">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTL_DoorLockingSystem/src/RoomDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="716">
-          <caret line="40" column="21" lean-forward="false" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/HTL_DoorLockingSystem/src/RoomDAO.java" />
     <entry file="file://$PROJECT_DIR$/Homework-Tracker/web/list.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="506">
           <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Homework-Tracker/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="501">
+        <state relative-caret-position="1012">
           <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1565,7 +1490,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
           <caret line="567" column="63" lean-forward="false" selection-start-line="567" selection-start-column="43" selection-end-line="567" selection-end-column="63" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1573,7 +1497,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="685">
           <caret line="47" column="36" lean-forward="true" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1581,7 +1504,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
           <caret line="18" column="46" lean-forward="false" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1589,7 +1511,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
           <caret line="121" column="27" lean-forward="true" selection-start-line="121" selection-start-column="27" selection-end-line="121" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1597,54 +1518,219 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
           <caret line="30" column="66" lean-forward="false" selection-start-line="30" selection-start-column="66" selection-end-line="30" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTL_DoorLockingSystem/src/obj/Database.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="535">
-          <caret line="27" column="36" lean-forward="false" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HTL_DoorLockingSystem/src/server/ServerThread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="55" column="42" lean-forward="true" selection-start-line="55" selection-start-column="42" selection-end-line="55" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#311#312#0" expanded="true" />
-            <element signature="e#342#343#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTL_DoorLockingSystem/src/server/Server.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="19" column="27" lean-forward="false" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTL_DoorLockingSystem/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="776">
-          <caret line="41" column="57" lean-forward="false" selection-start-line="41" selection-start-column="57" selection-end-line="41" selection-end-column="57" />
-          <folding />
+        <state relative-caret-position="627">
+          <caret line="49" column="31" lean-forward="false" selection-start-line="49" selection-start-column="31" selection-end-line="49" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HTL_DoorLockingSystem/src/obj/RoomDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="892">
-          <caret line="76" column="9" lean-forward="false" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
+        <state relative-caret-position="529">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTL_DoorLockingSystem/src/obj/Database.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="37" column="53" lean-forward="false" selection-start-line="37" selection-start-column="53" selection-end-line="37" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTL_DoorLockingSystem/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="828">
+          <caret line="51" column="29" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTL_DoorLockingSystem/src/server/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" column="27" lean-forward="false" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NetworkingMultithrad3/src/htl/ServerThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NetworkingMultithrad3/src/htl/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="56" lean-forward="false" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Factory_SRDP_1516_2/src/factory/Category.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="25" column="68" lean-forward="false" selection-start-line="25" selection-start-column="68" selection-end-line="25" selection-end-column="68" />
           <folding>
-            <marker date="1553544036575" expanded="true" signature="1424:1464" ph="UPDATE rooms... " />
+            <element signature="e#217#218#0" expanded="false" />
+            <element signature="e#242#243#0" expanded="false" />
+            <element signature="e#277#278#0" expanded="false" />
+            <element signature="e#304#305#0" expanded="false" />
+            <element signature="e#351#352#0" expanded="false" />
+            <element signature="e#426#427#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/java.sql/java/sql/PreparedStatement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="85" column="37" lean-forward="false" selection-start-line="85" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Jahresbericht/src/database/Articles.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Jahresbericht/src/database/Database.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="113" column="33" lean-forward="true" selection-start-line="113" selection-start-column="33" selection-end-line="113" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Factory_SRDP_1516_2/src/factory/Job.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1311">
+          <caret line="75" column="29" lean-forward="false" selection-start-line="75" selection-start-column="29" selection-end-line="75" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Factory_SRDP_1516_2/src/factory/db/CategoryDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="14" column="63" lean-forward="false" selection-start-line="14" selection-start-column="63" selection-end-line="14" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Factory_SRDP_1516/web/delete.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="24" column="37" lean-forward="true" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sockets-1/src/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="53" lean-forward="true" selection-start-line="13" selection-start-column="53" selection-end-line="13" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Factory_SRDP_1516_2/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="709">
+          <caret line="73" column="27" lean-forward="true" selection-start-line="73" selection-start-column="27" selection-end-line="73" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Factory_SRDP_1516_2/src/factory/sockets/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="519">
+          <caret line="29" column="52" lean-forward="false" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Factory_SRDP_1516_2/src/factory/sockets/ServerThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="497">
+          <caret line="43" column="42" lean-forward="true" selection-start-line="43" selection-start-column="42" selection-end-line="43" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#308#309#0" expanded="true" />
+            <element signature="e#339#340#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/java.base/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="122" column="19" lean-forward="false" selection-start-line="122" selection-start-column="19" selection-end-line="122" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Factory_SRDP_1516_2/src/factory/db/Database.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2">
+          <caret line="5" column="30" lean-forward="true" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Factory_SRDP_1516_2/src/factory/db/JobDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1556978741680" expanded="true" signature="482:573" ph="INSERT INTO jobs... " />
+            <marker date="1556978741680" expanded="true" signature="692:718" ph="DELETE FROM " />
+            <marker date="1556978741680" expanded="true" signature="692:720" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Factory_SRDP_1516_2/web/process.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="29" column="23" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Factory_SRDP_1516_2/web/delete.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="40" lean-forward="true" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Factory_SRDP_1516_2/web/overview.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1120">
+          <caret line="42" column="42" lean-forward="false" selection-start-line="42" selection-start-column="42" selection-end-line="42" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Factory_SRDP_1516_2/src/factory/sockets/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="17" column="40" lean-forward="false" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1703,7 +1789,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>HTL_DoorLockingSystem</last-edited>
+          <last-edited>Web|Factory_SRDP_1516_2</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1715,7 +1801,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>mysql-connector-java-5.1.14-bin1</last-edited>
+          <last-edited>mysql-connector-java-5.1.14-bin</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

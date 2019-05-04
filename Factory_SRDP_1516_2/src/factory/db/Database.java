@@ -1,15 +1,14 @@
-package obj;
+package factory.db;
 
 import java.sql.*;
 
-public class Database
-{
+public class Database {
     private static final String DEFAULT_USER = "user";
     private static final String DEFAULT_PASSWORD = "PeterRendl69!";
 
     private static final String DEFAULT_SERVER = "faoiltiarna.ddns.net";
     private static final int DEFAULT_PORT = 3306;
-    private static final String DEFAULT_SCHEMA = "htl_doorlockingsystem";
+    private static final String DEFAULT_SCHEMA = "htl_factory_2";
 
     private static Connection connection;
 
@@ -36,7 +35,6 @@ public class Database
     public static ResultSet executeQuery(String sql) throws SQLException {
         Statement statement = getConnection().createStatement();
         ResultSet rset = statement.executeQuery(sql);
-
         return rset;
     }
 
